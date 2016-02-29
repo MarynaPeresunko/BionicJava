@@ -12,6 +12,7 @@ public class Circle implements AreaMeasurable {
 	public void setRadius(double r) {
 		this.r = r;
 	}
+	@Override 
 	public double calculateArea() {
 		return Math.PI * (r * r);
 	}

@@ -12,6 +12,7 @@ public class Square implements AreaMeasurable {
 	public void setSide(double a) {
 		this.a = a;
 	}
+	@Override 
 	public double calculateArea() {
 		return this.a * 2;
 	}

@@ -20,6 +20,7 @@ public class Rectangle implements AreaMeasurable {
 	public void setWidth(double w) {
 		this.w = w;
 	}
+	@Override 
 	public double calculateArea() {
 		return h * w;
 	}
