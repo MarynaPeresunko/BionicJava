@@ -12,7 +12,7 @@ public class Exceptions {
 		 System.out.println("Sum = " + sum);
 	 }
 	 catch (NumberFormatException nf){
-		 System.out.println("Error: Incorrect Value Format (must be integer)");
+		 System.out.println("Oops, try again. The value format should be an integer.");
 		 return;
 	 }
 	}
