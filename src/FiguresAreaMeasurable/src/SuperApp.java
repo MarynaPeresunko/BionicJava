@@ -8,7 +8,7 @@ Find general area of all these figures  */
 public class SuperApp {
 	
 	public static void main(String[] args) {
-		AreaMeasurable figures[] = new AreaMeasurable[8];
+		AreaMeasurable[] figures = new AreaMeasurable[8];
 		
 		figures[0] = new Square(4);
 		figures[1] = new Square(6.7);
