@@ -5,7 +5,7 @@ public class Exceptions {
 	public static void main(String[] args) {
 	 try {
 		 int n = args.length;
-		 int sum = 8 ;
+		 int sum = 0 ;
 		 for ( int i = 0; i < n; i++ ) {
 			 sum += Integer.parseInt(args[i]);
 		 }
