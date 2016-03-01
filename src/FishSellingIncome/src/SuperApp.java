@@ -9,7 +9,7 @@ public class SuperApp {
 		selling[1] = new FishSaleOperation("dolphinfish", 12.85, LocalDate.of(2016,2,23), 18.56, LocalDate.of(2016,2,29), 5.05);
 		selling[2] = new FishSaleOperation("mahimahi", 16.55, LocalDate.of(2016,2,12), 20.60, LocalDate.of(2016,2,25), 9.80);
 		selling[3] = new FishSaleOperation("dolphinfish", 13.00, LocalDate.of(2016,2,2), 20.06, LocalDate.of(2016,2,4), 3.625);
-		selling[4] = new FishSaleOperation("salmon", 6.53, LocalDate.of(2016,2,21), 10.65, LocalDate.of(2016,2,24), 2.56);
+		selling[4] = new FishSaleOperation("salmon", 6.53, LocalDate.of(2016,2,29), 10.65, LocalDate.of(2016,2,24), 2.56);
 		selling[5] = new FishSaleOperation("dolphinfish", 17.15, LocalDate.of(2016,2,6), 23.45, LocalDate.of(2016,2,8), 2.305);
 		selling[6] = new FishSaleOperation("lobsters", 52.50, LocalDate.of(2016,2,3), 65.05, LocalDate.of(2016,2,5), 6.90);
 		selling[7] = new FishSaleOperation("hake", 5.06, LocalDate.of(2016,2,23), 10.65, LocalDate.of(2016,2,27), 1.76);

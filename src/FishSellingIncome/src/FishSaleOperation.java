@@ -27,6 +27,10 @@ public class FishSaleOperation {
 	public FishSaleOperation() {};
 	public FishSaleOperation(String fn, double pp, LocalDate pd, double ps, LocalDate sd, double w) {
 		
+		if (pd.isAfter(sd) ) {
+			   throw new Exception("Incorrect Date of Purchase or Date of Sale. Date of Sale should be after Date of Purchase");
+			  }
+			
 		this.fn = fn;
 		this.pp = pp;
 		this.pd = pd;
